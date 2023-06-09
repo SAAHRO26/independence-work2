@@ -1,0 +1,130 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 1920px;
+    height: 639px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #748bb9;
+}
+
+
+
+
+
+.hero .title{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  padding: 101px 569px 0;
+  margin: 0 auto;
+
+
+}
+
+.hero .title h1{
+height: 56px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 56;
+color: #000;
+text-transform: uppercase;
+}
+
+.benefits{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
