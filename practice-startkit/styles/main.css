@@ -4,44 +4,121 @@
 }
 
 .hero{
+    background-color: #EEF1F7;
     width: 1920px;
+    background-repeat: no-repeat;
+}
+
+
+.hero .frame{
+    width: 1231px;
     height: 639px;
+    text-align: center;
+   margin: 0 auto;
+
+}
+.hero .frame .grouptitle{
+    position: relative;
+    width: 781px;
+    height: 137px;
+    text-align: center;
+    margin: 0 auto;
+    top: 100px;
+}
+
+.title{
+   height: 56px;
+    width: 731px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+  line-height: 56px;
+  margin: 0 auto;
+}
+
+.title .greentext{
+    background-color: #F9ED32;
+    height: 57px;
+    width: 337px;
+}
+
+
+.subtitle{
+    width: 781px;
+height: 60px;
+font-family: Roboto;
+font-weight: 400;
+font-size: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+line-height: 30px;
+margin-top: 20px;
+}
+
+.cards{
+    position: relative;
+
+    background-color: ;
+    width: 1231px;
+    height: 182px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+top: 190px;
+}
+
+.cards .block{
+   top: 307px;
+    background-color: #fff;
+    width: 230px;
+    height: 182px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #748bb9;
-}
-
-
-
-
-
-.hero .title{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    text-align: center;
-  padding: 101px 569px 0;
-  margin: 0 auto;
-
+    gap: 20;
+    border-radius: 10px;
 
 }
 
-.hero .title h1{
-height: 56px;
+h3{
+width: 180px;
+height: 52px;
 font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 48px;
-line-height: 56;
-color: #000;
-text-transform: uppercase;
+font-weight: 400;
+font-size: 22px;
+line-height: 25px;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-content: space-evenly;
+text-align: center;
+margin: 0 30px 30px;
 }
 
-.benefits{
 
+
+
+img{
+    width: 50px;
+    height: 50px;
+
+    margin: 30px 0 20px;
 
 }
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
+
+
+
+
 
 
 
