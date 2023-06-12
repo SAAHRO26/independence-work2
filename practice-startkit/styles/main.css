@@ -37,7 +37,7 @@
   margin: 0 auto;
 }
 
-.title .greentext{
+/* .title */ .greentext{ 
     background-color: #F9ED32;
     height: 57px;
     width: 337px;
@@ -45,6 +45,9 @@
 
 
 .subtitle{
+
+
+
     width: 781px;
 height: 60px;
 font-family: Roboto;
@@ -60,12 +63,13 @@ margin-top: 20px;
 .cards{
     position: relative;
 
-    background-color: ;
+    
     width: 1231px;
     height: 182px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0 auto;
+    /* justify-content: space-between;
+    align-items: center; */
     gap: 20px;
 top: 190px;
 }
@@ -130,43 +134,118 @@ a{
 
 
 
+.benefit{
+    width: 1920px;
+  
+
+}
+
+.container{
+    position: relative;
+    width: 1300px;
+    height: 510px;
+    text-align: center;
+   margin: 0 auto;
+   margin-top: 150px;
+}
+
+.double{
+margin: 0 auto;
+text-align: center;
+top: 0;
+}
+
+h1{
+    background-color: #fff;
+    width: 550px;
+    height: 112px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000;
+}
+
+.double .title .greentex{
+  width: 168px;
+    font-size: 45px;
+    height: 47px;px;
+    line-height: 60px;
+    
+}
+
+.wrappir{
+    display: flex;
+    justify-content:
+     space-between;
+    width: 1300px;
+    height: 218px;
+margin-top: 80px;
+
+}
+
+.wrappir .card{
+    position: relative;
+    display: flex;
+    gap: 20px;
+width: 420px;
+background-color: #eef1f7;
+border-radius: 10px;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+}
+
+.wrappir .ftitle{
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+   top: 20px;
+left: 20px;
+text-align: left;
+}
 
 
 
 
+.wrappir .card h3{
+    position: absolute;
+    display: flex;
+  width: 231px;
+  font-weight: 900;
+  font-size: 24px;
+  align-items: flex-start;
+  
+left: 40px;
+top: 83px;
+
+}
 
 
 
+.wrappir .card img{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+left: 20px;
+top: 56px;
+
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.wrappir .card p{
+    position: absolute;
+    width: 330px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 18px;
+   top:126px;
+   text-align: left;
+   left: 20px;
+}
 
 
 
